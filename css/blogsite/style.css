@@ -1,0 +1,44 @@
+@import "../common/card.css";
+@import "./header.css";
+@import "../common/footer.css";
+@import "../common/button.css";
+@import "../common/design.css";
+
+*{
+    border: 2px red solid;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: fr fr fr fr;
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    "header"
+    "content1"
+    "content2"
+    "footer";
+    justify-content: center;
+}
+
+#header {
+    grid-area: header;
+}
+
+#content1 {
+    grid-area: content1;
+}
+
+#content2 {
+    grid-area: content2;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

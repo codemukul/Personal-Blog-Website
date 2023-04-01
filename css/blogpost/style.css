@@ -1,0 +1,45 @@
+@import "../common/footer.css";
+@import "../common/card.css";
+@import "../common/button.css";
+
+*{
+    border: 2px red solid;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: fr fr fr;
+    grid-template-columns: fr fr fr fr fr;
+    grid-template-areas: 
+    "header header header header header"
+    "content1 content1 content1 content1 rightnavbar"
+    "footer footer footer footer footer";
+    justify-content: center;
+}
+
+#header {
+    grid-area: header;
+}
+
+#content1 {
+    grid-area: content1;
+}
+
+#rightnavbar {
+    grid-area: rightnavbar;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#rnav {
+    width: 15vw;
+}
