@@ -2,10 +2,6 @@
 @import "../common/card.css";
 @import "../common/button.css";
 
-*{
-    border: 2px red solid;
-}
-
 .layout {
     display: grid;
     grid-template-rows: fr fr fr;
@@ -19,6 +15,18 @@
 
 #header {
     grid-area: header;
+}
+
+.arimgtop {
+    width:300px;
+    margin: auto;
+    display: block;
+}
+
+#avatarround {
+    display: inline;
+    height: 50px;
+    border-radius: 50%;
 }
 
 #content1 {
@@ -35,6 +43,7 @@
 
 #rnav {
     width: 15vw;
+    height: auto;
 }
 
 @media (max-width: 980px) {
@@ -47,11 +56,14 @@
         "rightnavbar"
         "footer";
     }
+
     #rightnavbar {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
+    
     #rnav {
         width :25vw;
         font-size: 1.6rem;

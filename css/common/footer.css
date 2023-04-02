@@ -1,11 +1,13 @@
 #footer {
     margin: 0px;
 }
+
 #subs {
     background-color: rgb(249, 249, 241);
     justify-content: center;
     display: flex;
 }
+
 #footnav {
     display: flex;
     flex-direction: row;
@@ -14,9 +16,11 @@
     background-color: rgb(54, 52, 52);
     padding: 10px;
 }
+
 input {
     font-size: 1.5rem;
 }
+
 .footnav {
     display: flex;
     justify-content: space-evenly;
@@ -27,12 +31,14 @@ input {
     padding: 2px;
     padding-left: 10px;
 }
+
 #copyright {
     background-color: black;
     color: white;
     padding: 5px;
     padding-left: 20px;
 }
+
 .ft {
     text-align: left;
     color: white;
@@ -44,17 +50,21 @@ input {
         align-items: left;
         justify-content: left;
     }
+
     .footnav {
         justify-content: left;
         align-items: left;
     }
+
     .ft {
         font-size: 50px;
     }
+
     input {
         width: 40vw;
         font-size: 50px;
     }
+    
     #subs {
         height: 100px;
     }

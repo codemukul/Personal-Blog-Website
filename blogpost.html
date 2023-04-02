@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/blogpost/style.css" />
@@ -6,35 +6,42 @@
 </head>
 <body>
     <div class="layout">
-        <div id="header">
+        <header id="header">
             <h1>Quantum Safe Cryptography</h1>
-        </div>
-        <div id="content1">
-            <h3>What is Quantum Computing ?</h3>
-            <p>Quantum computing is an area of computer science that uses quantum mechanics to perform calculations. Quantum computers use quantum bits (qubits) instead of classical bits to store and process information. Qubits can exist in multiple states simultaneously, which allows quantum computers to perform certain calculations exponentially faster than classical computers1.
+            <h3>- <img src="./assets/logo/avatar.jpg" id="avatarround" /> codemukul (sourced from bing chat), B.Tech. Student,  NIT (India), Passionate Learner</h3>
+        </header>
+        <article id="content1">
+            <img src="./assets/images/article.jpeg" alt="quantumsafe" class="arimgtop">
+            <h2>What is Quantum Computing ?</h2>
+            <p><i><u><b>Quantum computing</b></u></i> is an area of computer science that uses quantum mechanics to perform calculations. Quantum computers use quantum bits (qubits) instead of classical bits to store and process information. Qubits can exist in multiple states simultaneously, which allows quantum computers to perform certain calculations exponentially faster than classical computers1.
 
                 Quantum computing has the potential to revolutionize fields such as cryptography, drug discovery, and optimization1. However, quantum computers are still in their infancy and are not yet capable of solving practical problems that classical computers cannot solve. </p>
             <br>
-            <h3>What is Cryptography ?</h3>
-            <p>Cryptography is the practice of securing communication from adversaries1. It involves converting plaintext into ciphertext using an encryption algorithm and a key1. The ciphertext can then be sent over an insecure channel without fear of eavesdropping2. The recipient can then decrypt the ciphertext back into plaintext using a decryption algorithm and a key1. Cryptography is used in many applications such as secure communication, digital signatures, and secure storage.</p>
+            <h2>What is Cryptography ?</h2>
+            <p><i><u><b>Cryptography</b></u></i> is the practice of securing communication from adversaries1. It involves converting plaintext into ciphertext using an encryption algorithm and a key1. The ciphertext can then be sent over an insecure channel without fear of eavesdropping2. The recipient can then decrypt the ciphertext back into plaintext using a decryption algorithm and a key1. Cryptography is used in many applications such as secure communication, digital signatures, and secure storage.</p>
             <br>
-            <h3>Why Quantum Safe Cryptography ?</h3>
+            <h2>Why Quantum Safe Cryptography ?</h2>
             <p>Quantum computers have the potential to break many of the cryptographic algorithms that are currently used to secure our data1. This is because quantum computers can perform certain calculations exponentially faster than classical computers2. For example, Shor’s algorithm can be used to factor large numbers into their prime factors, which would break RSA encryption2.
 
                 Quantum-safe cryptography refers to efforts to identify algorithms that are resistant to attacks by both classical and quantum computers, to keep information assets secure even after a large-scale quantum computer has been built2. The National Institute of Standards and Technology (NIST) has been working on developing post-quantum cryptographic algorithms that are resistant to quantum attacks3.
                 
                 Quantum-safe cryptography is important because it ensures that our data remains secure even in the presence of quantum computers1. It is important to start using quantum-safe cryptographic algorithms now because it will take time to transition from classical cryptographic algorithms to quantum-safe ones1.</p>
-        </div>
-        <div id="rightnavbar">
+        </article>
+        <section id="rightnavbar">
             <a class="cardlink" href="/"><div class="card" id="rnav">Home Page</div></a>
+            <a class="cardlink" href="/blogpost.html"><div class="card" id="rnav">Share on Whatsapp</div></a>
+            <a class="cardlink" href="/blogpost.html"><div class="card" id="rnav">Share on Facebook</div></a>
+            <a class="cardlink" href="/blogpost.html"><div class="card" id="rnav">Share on Twitter</div></a>
             <a class="cardlink" href="/blogpost.html"><div class="card" id="rnav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolores.</div></a>
             <a class="cardlink" href="/blogpost.html"><div class="card" id="rnav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolores.</div></a>
-        </div>
-        <div id="footer">
+        </section>
+        <footer id="footer">
+            <br>
             <div id="subs">
                 <input type="email" value="xyz@email.com">
                 <input type="submit" value="Subscribe Us">
             </div>
+            <br>
             <div id="footnav">
                 <div class="footnav">
                     <div class="ft">INFORMATION</div>
@@ -57,7 +64,7 @@
             <div id="copyright">
                 codemukul © Copyright 2023
             </div>
-        </div>
+        </footer>
     </div>
 </body>
 </html>

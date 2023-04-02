@@ -4,10 +4,6 @@
 @import "../common/button.css";
 @import "../common/design.css";
 
-*{
-    border: 2px red solid;
-}
-
 .layout {
     display: grid;
     grid-template-rows: fr fr fr fr;
@@ -39,8 +35,14 @@
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.articleimage {
+    height: 100px;
+    margin-top: 15px;
 }
 
 @media (max-width: 980px) {

@@ -1,0 +1,12 @@
+button {
+    background-color: white;
+    border: 1px black solid;
+    margin-top: 15px;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: bisque;
+}
