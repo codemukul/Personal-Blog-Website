@@ -10,7 +10,6 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
     width: 100vw;
@@ -25,4 +24,24 @@
     font-size: larger;
     font-weight: 700;
     color: black;
+}
+.navitem:hover {
+    background-color: bisque;
+}
+
+@media (max-width: 980px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+    }
+    .navitem {
+        width: 100vw;
+        align-items: center;
+        padding: auto;
+        text-align: center;
+        font-size: 33px;
+        height: 55px;
+    }
 }

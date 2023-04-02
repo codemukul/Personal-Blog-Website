@@ -9,11 +9,13 @@
 #footnav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
     background-color: rgb(54, 52, 52);
     padding: 10px;
+}
+input {
+    font-size: 1.5rem;
 }
 .footnav {
     display: flex;
@@ -34,4 +36,26 @@
 .ft {
     text-align: left;
     color: white;
+}
+
+@media (max-width: 980px) {
+    #footnav {
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+    .footnav {
+        justify-content: left;
+        align-items: left;
+    }
+    .ft {
+        font-size: 50px;
+    }
+    input {
+        width: 40vw;
+        font-size: 50px;
+    }
+    #subs {
+        height: 100px;
+    }
 }
